@@ -19,7 +19,7 @@ Only dataset 1 "DTaverage.txt":
 # The variables in the two datasets are:
 
  [1] "activity" - factor - with six levels (1"walking",2"walkingupstairs",3"walkingdownstairs",4"sitting",5"standing",6"laying")       
- [2] "subject" - int - subject numbers 1 to 30                         
+ [2] "subject" - int - subject numbers range from 1 to 30                         
  [3] "tbodyaccmeanx" - numeric                     
  [4] "tbodyaccmeany" - numeric                 
  [5] "tbodyaccmeanz" - numeric                    
@@ -107,6 +107,15 @@ Only dataset 1 "DTaverage.txt":
 [87] "0fbodybodygyromagstd" - numeric               
 [88] "fbodybodygyrojerkmagstd" - numeric           
 [89] "group" - factor - with 2 levels (test and train group)   
+- Features are normalized and bounded within [-1,1].
+
+# The activity labels are:
+walking: subject was walking during the test
+walkingUpstairs : subject was walking up a staircase during the test
+walkingDownstairs : subject was walking down a staircase during the test
+sitting : subject was sitting during the test
+standing : subject was standing during the test
+laying : subject was laying down during the test
 
 ====================================================================================================================================
 # Information about the variables in the original research data set (before mutatation) on which both datasets are computed
@@ -183,7 +192,6 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 Notes: 
 ======
-- Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
