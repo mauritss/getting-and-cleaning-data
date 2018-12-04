@@ -13,7 +13,8 @@ The set of variables that were estimated from these signals are:
 Only dataset 1 "DTaverage.txt":
 - Contains the average of each variable for each activity and each subject.
 
-The variables in the datasets are:
+# The variables in the datasets are:
+
  [1] "activity" - factor - with six levels (1"walking",2"walkingupstairs",3"walkingdownstairs",4"sitting",5"standing",6"laying")       
  [2] "subject" - int - subject numbers 1 to 30                         
  [3] "tbodyaccmeanx" - numeric                     
@@ -104,7 +105,7 @@ The variables in the datasets are:
 [88] "fbodybodygyrojerkmagstd" - numeric           
 [89] "group" - factor - with 2 levels (test and train group)   
 
-#Information about the variables in the original research data set (before mutatation) on which both datasets are computed
+# Information about the variables in the original research data set (before mutatation) on which both datasets are computed
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
