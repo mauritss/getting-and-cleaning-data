@@ -1,5 +1,10 @@
 # This ReadMe markdown file contains information about run_analysis.R and Codebook.md for the Coursera Course
-This Repository and ReadMe file have been made by Maurits Sijtstra for the Coursera Getting And Cleaning Data Course Project
+This Repository and ReadMe file have been made by Maurits Sijtstra for the Coursera Getting And Cleaning Data Course Project. This repo contains five files:
+1. This readme file with information about all the files and especially the R script
+2. A code book explaining the variables in both datasets
+3. A txt dataset called DTaverage.txt containing averaged training and test data
+4. A txt dataset called DTsubset.txt caontaining training and test data
+5. A R script with code and comment to create the two datasets.
 
 # INFORMATION ABOUT THE run.analysis.R SCRIPT
 The R-script is written for the Coursera Tidy Data course assignment. This script uses data collected by: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
