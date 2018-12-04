@@ -180,3 +180,10 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 - tBodyAccJerkMean
 - tBodyGyroMean
 - tBodyGyroJerkMean
+
+Notes: 
+======
+- Features are normalized and bounded within [-1,1].
+- Each feature vector is a row on the text file.
+
+For more information about this dataset contact: activityrecognition@smartlab.ws
