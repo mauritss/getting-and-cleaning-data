@@ -110,12 +110,12 @@ Only dataset 1 "DTaverage.txt":
 - Features are normalized and bounded within [-1,1].
 
 # The activity labels are:
-walking: subject was walking during the test
-walkingUpstairs : subject was walking up a staircase during the test
-walkingDownstairs : subject was walking down a staircase during the test
-sitting : subject was sitting during the test
-standing : subject was standing during the test
-laying : subject was laying down during the test
+- walking: subject was walking during the test
+- walkingUpstairs : subject was walking up a staircase during the test
+- walkingDownstairs : subject was walking down a staircase during the test
+- sitting : subject was sitting during the test
+- standing : subject was standing during the test
+- laying : subject was laying down during the test
 
 ====================================================================================================================================
 # Information about the variables in the original research data set (before mutatation) on which both datasets are computed
