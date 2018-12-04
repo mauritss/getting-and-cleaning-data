@@ -2,6 +2,7 @@
 This code book provides information about the two datasets and variables used for the coursera getting and cleaning data course. For more information see the Readme file. 
 
 Dataset 1 "DTaverage.txt" (contains 180 observations on 89 variables).
+
 Dataset 2 "DTsubset.txt (contains 10299 observations on 89 variables".
 Both datasets:
 - Contain data from both the training and the test sets; 
@@ -10,6 +11,7 @@ Both datasets:
 - Descriptive activity names were given to the activity variable;
 Each row identifies a subject who performed on one of six activities. The values show averages of means and standard deviations.
 The set of variables that were estimated from these signals are: 
+
 Only dataset 1 "DTaverage.txt":
 - Contains the average of each variable for each activity and each subject.
 
